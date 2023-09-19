@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> NBA Times </title>
+  <link rel="icon" href="Images/NBA Icon.jpeg">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="header-container">
+    <div class="navbar">
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#BigNews">Big News</a></li>
+        <li><a href="#GameResults">Game Result</a></li>
+        <li><a href="#Champion">Form</a></li>
+        <li><button id="theme-button">Toggle Dark Mode</button></li>
+      </ul>
+    </div>
+    <div>
+      <iframe id="header-video" src="https://www.youtube.com/embed/diw5nDVEx54" title="1 Hour of the Top Plays of the 2022-23 NBA Playoffs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="header-middle-container">
+      <div>
+        <img id="header-image" src="Images/NBA Logo.png" />
+      </div>
+      <div class="header-item">
+        <h1>NBA Times</h1>
+        <h1>Get your daily NBA news</h1>
+      </div>
+      <div class="header-button">
+        <button id="left-button" type="button">West</button>
+        <button id="right-button" type="button">East</button>
+      </div>
+    </div>
+    <div>
+      <iframe id="header-video"src="https://www.youtube.com/embed/J9qlPIzVIWQ" title="The Most ELECTRIC Crowd Moments of the 2023 NBA Playoffs!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        frameborder="0"></iframe>
+    </div>
+  </div>
+  <div class="footer">
+    <p> <a href="https://www.nba.com/"> Go to the offical NBA website </a> </p>
+    <p> <a href="https://www.nba.com/news/2023-nba-playoffs-schedule"> Check the NBA schedule </a> </p>
+  </div>
+  <h2> NBA Times is a website where you can get all the news about the NBA. </h2>
+  <br>
+  <div class="sub-header revealable">
+    <img class="Images" src="Images/NBA Goats.jpg">
+    <h3> The National Basketball Association is a professional basketball league in North America. It is one of the
+      major professional sports leagues in the United States and Canada and is considered as the top men basketball
+      organization in the world. There are five major stats points in basketball: points, assists, rebounds, blocks, and
+      steals. There are other substats like field goal percentage, three-pointer percentage, etc. Moreover, there are 30
+      teams with each team composing of a maximum of 15 players, totaling up to approximately 450 players active in the
+      NBA. The NBA is found on June 6, 1946 in New York. Currently, it is the 77th season since the founding of the NBA.
+      For more history and information, visit this website to gain a deeper understanding of the history of the NBA:<a
+        href="https://www.britannica.com/topic/National-Basketball-Association">NBA History</a></h3>
+  </div>
+  <p class = 'revealable'> Welcome to NBA Times! Here, you will get all the recent news, stories, and scoreboards in the NBA. This website will contain information on recent games result, trade rumors, records, players, playoff matchup, and top teams to win the championship!</p>
+  <div class="BigNews revealable">
+    <h4 id="BigNews"> BIG News </h4>
+    <ol>
+      <li> Suns beats the Clippers 4-1 to advance to the NBA Western conference semi-final. They will face the Grizzles in the next round.</li>
+      <li> Celtics beats the Hawks 4-2 to advance to the NBA Eastern conference semi-final. They will face against the Celtics in the next round.</li>
+      <li> Nuggets beats the Timberwolves 4-1 to advance to the NBA Western conference semi-final. They will face against the Celtics in the next round.</li>
+      <li> Heat(8th seed) beats the Bucks(1st seed) 4-1 to advance to the NBA Eastern conference semi-final. They will face against the Knicks in the next round.</li>
+      <li> 76ers beats the Nets 4-0 to advance to the NBA Eastern conference semi-final. They will face against the Celtics in the next round.</li>
+      <li> Knicks beats the Cavaliers 4-1 to advance to the NBA Eastern conference semi-final. They will face against the Heat in the next round.</li>
+      <li> Lakers beats the Grizzlies 4-2 and will face against the winner between the Kings and Warriors.
+      </li>
+      <li> Kings has tied the series 3-3 and will play game 7 on 4/30 against the Warriors. The winner will face against Lakers in the upcoiming Western conference semi-final.</li>
+    </ol>
+  </div>
+  <img class="Images revealable" src="Images/NBA Teams.jpg">
+  <div class="GameResults revealable">
+    <h4 id="GameResults"> Game Result </h4>
+    <ol>
+      <li> Celtics beats the Hawks 128-120.</li>
+      <li> Heat beats the Bucks 128-126 in overtime.</li>
+      <li> Lakers beats the Grizzlies 125-85.</li>
+      <li> Kings beats the Warriors 118-99.</li>
+    </ol>
+  </div>
+
+  <div class="Champion revealable" id="Champion">
+    <h3> Predict your 2023 NBA champions!</h3>
+    <div class="NBA-container">
+      <div class="NBA-description">
+        There are a total of 30 NBA teams in the league, and 16 teams will compete during the offseason for the
+        championship. Teams are separated into the East and West where the top 6 teams from both sides will automically
+        be in the playoff. Teams seeded 7-10 from both sides will have to compete in the play-in tournaments in order to
+        qualify for the playoff. Only two teams from each side will be qualfied. Each matchup will last up to 7 games
+        with the first team getting four wins will move up the bracket. The NBA Finals will be in June so don't miss it
+        if you get the chance.
+      </div>
+      <div class="Support">
+        <p> Dave Jacobs supports the New York Knicks.</p>
+        <p> Amy Anderson supports the Warriors.</p>
+        <p> Teresa Akin supports the Lakers.</p>
+      </div>
+    </div>
+    <form id="predictions" title="predictions">
+      <label for='fname'>First Name:</label>
+      <input type='text' id='fname' placeholder='First Name' required>
+      <label for='lname'>Last Name:</label>
+      <input type='text' id='lname' placeholder='Last Name' required>
+      <label for="team">Team:</label>
+      <select id="team" name="team">
+        <option value=""></option>
+        <option value="Hawks">Atlanta Hawks</option>
+        <option value="Celtics">Boston Celtics</option>
+        <option value="Nets">Brooklyn Nets</option>
+        <option value="Hornets">Charlotte Hornets</option>
+        <option value="Bulls">Chicago Bulls</option>
+        <option value="Cavaliers">Cleveland Cavaliers</option>
+        <option value="Mavericks">Dallas Mavericks</option>
+        <option value="Nuggets">Denver Nuggets</option>
+        <option value="Pistons">Detroit Pistons</option>
+        <option value="Warriors">Golden State Warriors</option>
+        <option value="Rockets">Houston Rockets</option>
+        <option value="Pacers">Indiana Pacers</option>
+        <option value="Clippers">Los Angeles Clippers</option>
+        <option value="Lakers">Los Angeles Lakers</option>
+        <option value="Grizzlies">Memphis Grizzlies</option>
+        <option value="Heat">Miami Heat</option>
+        <option value="Bucks">Milwaukee Bucks</option>
+        <option value="Timberwolves">Minnesota Timberwolves</option>
+        <option value="Pelicans">New Orleans Pelicans</option>
+        <option value="Knicks">New York Knicks</option>
+        <option value="Thunder">Oklahoma City Thunder</option>
+        <option value="Magic">Orlando Magic</option>
+        <option value="76ers">Philadelphia 76ers</option>
+        <option value="Suns">Phoenix Suns</option>
+        <option value="Trail Blazers">Portland Trail Blazers</option>
+        <option value="Kings">Sacramento Kings</option>
+        <option value="Spurs">San Antonio Spurs</option>
+        <option value="Raptors">Toronto Raptors</option>
+        <option value="Jazz">Utah Jazz</option>
+        <option value="Wizards">Washington Wizards</option>
+      </select>
+    </form>
+    <button id="submit-now-button">Submit</button>
+  </div>
+<div id="thanks-modal" class="modal">
+  <div class="modal-content">
+    <div id="modal-text-container">
+      <p id="thanks-modal-content">Thank you for submitting your form and supporting your team!</p>
+      <img id="modal-image" src="Images/NBA Playoff Bracket.jpg"
+    </div>
+  </div>
+</div>
+
+  <script src="index.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
